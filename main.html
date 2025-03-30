@@ -1,1 +1,91 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f6f6f6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 20px;
+        }
+        .container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px #ccc;
+            width: 60%;
+            text-align: center;
+        }
+        img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 15px;
+        }
+        h2 {
+            color: #333;
+            border-bottom: 2px solid #1877f2;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+        .skills {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+        }
+        .skill-bar {
+            width: 80%;
+            background-color: #ccc;
+            border-radius: 5px;
+            overflow: hidden;
+            text-align: left;
+        }
+        .skill-bar div {
+            padding: 5px;
+            text-align: right;
+            color: white;
+            font-weight: bold;
+        }
+        .html { width: 90%; background-color: #e44d26; }
+        .css { width: 80%; background-color: #264de4; }
+        .javascript { width: 75%; background-color: #f7df1e; color: black; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="your-profile-picture.jpg" alt="Profile Picture">
+        
+        <h2>Name</h2>
+        <p>Karan Kumar</p>
+        
+        <h2>Email</h2>
+        <p>dashingkaran217@gmail.com</p>
+        
+        <h2>Profile</h2>
+        <p>Full Stack Developer</p>
+        
+        <h2>About me</h2>
+        <p>I am a passionate developer with experience in frontend and backend technologies, specializing in JavaScript, React, and Node.js.</p>
+        
+        <h2>Skills</h2>
+        <div class="skills">
+            <div class="skill-bar">
+                <div class="html">HTML - 90%</div>
+            </div>
+            <div class="skill-bar">
+                <div class="css">CSS - 80%</div>
+            </div>
+            <div class="skill-bar">
+                <div class="javascript">JavaScript - 75%</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
